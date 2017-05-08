@@ -1,13 +1,10 @@
 settings =
 {
-	--[[
-	orientation = {
-		default = "portrait", 
-		supported = { "portrait", },
-		-- supported = { "landscapeLeft", "landscapeRight" },
-		-- supported = { "landscapeLeft", "landscapeRight", "portrait", "portraitUpsideDown", },
-	},
-	--]]
+	plugins= {
+        ["plugin.firebaseStorage"] = {
+			publisherId = "tech.scotth",
+		}
+    }
 
 	iphone =
 	{
@@ -15,8 +12,6 @@ settings =
 		{
 			-- UIApplicationExitsOnSuspend = true, -- default is false
 			CFBundleIconFile = "Icon.png",
-			NSMicrophoneUsageDescription = "testing",
-			NSSpeechRecognitionUsageDescription="Speech recognition will be used to determine which words you speak into this device's microphone.",
 			CFBundleIconFiles =
 			{
 				"Icon.png", 
