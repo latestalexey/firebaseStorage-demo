@@ -88,7 +88,6 @@ title.x, title.y = display.contentCenterX, 168*.5
 title:setFillColor(1,0,0)
 local urlForImage
 local uploadFile
-print("hello124", doesFileExist("coronaIcon.png", system.DocumentsDirectory))
 uploadFile = widget.newButton( {
         x = display.contentCenterX,
         y = display.contentCenterY-100,
